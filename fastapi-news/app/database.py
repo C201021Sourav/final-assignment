@@ -15,7 +15,7 @@ database=os.getenv("DB_NAME")
 
 
 # SQLALCHEMY_DATABASE_URL = f"mysql+mysqlconnector://{user}:{passwd}@{host}/{database}"
-SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://root:@localhost/testtttttttttt"
+SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://root:@localhost/db_im"
 print(SQLALCHEMY_DATABASE_URL)
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
